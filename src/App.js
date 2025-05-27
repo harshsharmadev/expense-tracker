@@ -54,7 +54,7 @@ function App({ signOut, user }) {
 
   return (
     <div style={{ padding: 20 }}>
-      <h2>Welcome to OET by Harsh Sharma BB Nagar wale, {user.username}!</h2>
+      <h2>Welcome to Online Expense Tracker, {user.username}!</h2>
       <button onClick={signOut}>Sign Out</button>
 
       <h3>Add Expense</h3>
