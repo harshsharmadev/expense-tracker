@@ -55,6 +55,7 @@ function App({ signOut, user }) {
   return (
     <div style={{ padding: 20 }}>
       <h2>Welcome to Online Expense Tracker, {user.username}!</h2>
+  <h3>This is Demo project created by Harsh Sharma to submit as Project in Amity University</h3>
       <button onClick={signOut}>Sign Out</button>
 
       <h3>Add Expense</h3>
@@ -76,7 +77,7 @@ function App({ signOut, user }) {
       />
       <button onClick={addExpense}>Add Expense</button>
 
-      <h3>My Expenses</h3>
+      <h3>My Expenses</h3> 
       <ul>
         {expenses.map(exp => (
           <li key={exp.id}>
@@ -86,8 +87,6 @@ function App({ signOut, user }) {
       </ul>
     </div>
   );
-
-<h3>My Expenses</h3>
 }
 
 export default withAuthenticator(App);
