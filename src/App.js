@@ -86,6 +86,8 @@ function App({ signOut, user }) {
       </ul>
     </div>
   );
+
+<h3>My Expenses</h3>
 }
 
 export default withAuthenticator(App);
